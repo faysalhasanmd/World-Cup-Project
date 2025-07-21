@@ -85,7 +85,7 @@
   cursor: pointer;
 }
 .live-card img {
-  height: 180px;
+  height: 160px;
   width: 100%;
   border-radius: 7px 7px 0 0;
 }
@@ -139,6 +139,11 @@ footer {
     font-size: 1.45rem;
     line-height: normal;
   }
+  .live {
+    flex-direction: row;
+    background-color: transparent;
+    padding: 0px;
+  }
   .live-match {
     flex-direction: column;
   }
@@ -151,6 +156,6 @@ footer {
   .list {
     flex-direction: column;
     gap: 14px;
-    height: 200px;
+    height: 180px;
   }
 }
