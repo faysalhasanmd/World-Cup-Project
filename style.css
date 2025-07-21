@@ -26,6 +26,61 @@
   color: rgb(255, 255, 255);
 }
 /* banner style */
+@keyframes banner {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  25% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes banner-image {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  25% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes btn-animate {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  25% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .banner {
   display: flex;
   align-items: center;
@@ -34,6 +89,10 @@
   border-radius: 23px;
   gap: 23px;
   margin: 50px auto;
+  animation: banner 1s forwards;
+  /* background-image: url(./assets/img/banner/9679663.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .banner-content {
   margin-left: 25px;
@@ -43,6 +102,7 @@
 .banner-img > img {
   max-width: 100%;
   display: block;
+  animation: banner-image 1s ease-in-out 1;
 }
 .banner-title {
   font-family: "Poppins", sans-serif;
@@ -76,6 +136,7 @@
   max-height: fit-content;
   padding: 34px;
   border-radius: 23px;
+  animation: btn-animate 1s ease-in-out 1;
 }
 .live-btn {
   border: 2px solid black;
