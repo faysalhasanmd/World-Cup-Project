@@ -19,7 +19,7 @@
   cursor: pointer;
 }
 .btn-head {
-  margin-top: 28px;
+  /* margin-top: 8px; */
   cursor: pointer;
 }
 .font {
@@ -37,7 +37,7 @@
 }
 .banner-content {
   margin-left: 25px;
-  max-width: 50%;
+  /* max-width: 50%; */
 }
 
 .banner-img > img {
@@ -46,7 +46,7 @@
 }
 .banner-title {
   font-family: "Poppins", sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 64px;
 }
 .Greatest {
@@ -116,9 +116,11 @@ footer {
 }
 .footer-goal h1 {
   height: 100px;
+  font-family: "Schoolbell", cursive;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: salmon;
 }
 .list {
   display: flex;
@@ -136,8 +138,18 @@ footer {
 
 @media screen and (max-width: 576px) {
   .banner-title {
-    font-size: 1.45rem;
+    max-width: 80%;
+    font-size: 2rem;
     line-height: normal;
+    margin: 8px auto;
+  }
+  .banner-content {
+    text-align: center;
+    margin-bottom: 22px;
+  }
+  .banner-content p {
+    text-align: center;
+    margin: 12px auto;
   }
   .live {
     flex-direction: row;
@@ -152,6 +164,7 @@ footer {
   }
   .card-container {
     grid-template-columns: repeat(1, 1fr);
+    padding: 70px;
   }
   .list {
     flex-direction: column;
