@@ -153,10 +153,4 @@ footer {
     gap: 14px;
     height: 200px;
   }
-  .live {
-    flex-direction: row;
-    padding: 10px;
-    background-color: white;
-    gap: 4px;
-  }
 }
