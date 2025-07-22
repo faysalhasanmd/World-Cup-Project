@@ -21,6 +21,14 @@
   </head>
   <body>
     <header>
+      <nav>
+        <ul class="nav-menu">
+          <li><a class="text-5xl" href="#live-button">live</a></li>
+          <li><a href="#card-container">All Match</a></li>
+          <li><a href="#bottom">Goal</a></li>
+          <li><a href="#setting">Setting & privacy</a></li>
+        </ul>
+      </nav>
       <section class="banner container">
         <div class="banner-content">
           <h1 class="banner-title">
@@ -45,12 +53,12 @@
     </header>
     <main>
       <section class="live-match container">
-        <div class="live">
+        <div id="live-button" class="live">
           <button class="btn-live">Upcomming Match</button>
           <button class="btn-live">All Group</button>
           <button class="btn-primary btn-live">Blog</button>
         </div>
-        <div class="card-container">
+        <div id="card-container" class="card-container">
           <div class="live-card">
             <img src="./assets/img/matches/matches_1.jpg" alt="" />
             <div class="live-card-content">
@@ -162,13 +170,13 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer id="bottom">
       <div class="footer-goal">
         <h1>GOAL</h1>
       </div>
       <hr />
       <div class="footer-content">
-        <ul class="list">
+        <ul id="setting" class="list">
           <li><a href="">contact us</a></li>
           <li><a href="">terms of service</a></li>
           <li><a href="">privacy policy</a></li>
