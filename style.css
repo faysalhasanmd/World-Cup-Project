@@ -213,9 +213,7 @@ footer {
     margin: 12px auto;
   }
   .live {
-    flex-direction: row;
     background-color: transparent;
-    padding: 0px;
   }
   .live-match {
     flex-direction: column;
@@ -225,7 +223,7 @@ footer {
   }
   .card-container {
     grid-template-columns: repeat(1, 1fr);
-    padding: 70px;
+    padding: 40px;
   }
   .list {
     flex-direction: column;
